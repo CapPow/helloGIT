@@ -37,12 +37,11 @@ print(r"""\
                      SSt |______|_______________________________|______|
                      """)
 while True:
-	s = input('Speak Friend and Enter!: ')
-	if s.upper() == "MELLON":
-		print('** silently a great doorway was outlined **')
-		import webbrowser
-		#webbrowser.open_new_tab('https://youtu.be/DgHCM68KkPY?t=2m51s')
-		webbrowser.open_new_tab('https://www.youtube.com/embed/DgHCM68KkPY?start=231&autoplay=1')
-		break
-	else:
-print('*** The Doors of Durin Remain Sealed ***')
+    s = input('Speak Friend and Enter!: ')
+    if s.upper() == "MELLON":
+        print('** silently a great doorway was outlined **')
+        import webbrowser
+        webbrowser.open_new_tab('https://www.youtube.com/embed/DgHCM68KkPY?start=231&autoplay=1')
+        break
+    else:
+        print('*** The Doors of Durin Remain Sealed ***')
